@@ -1,0 +1,33 @@
+.wbdv-sticky-top {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 1;
+}
+
+.wbdv-padding-5px {
+    padding: 5px;
+}
+
+.navbar-expand-lg .navbar-toggler {
+    display: block;
+}
+
+.d-flex{
+    width: 80%;
+}
+
+.form-control{
+    width: 50vw;
+    background-color: #daedff87;
+    border-color: #daedff87;
+}
+
+a:link{
+    text-decoration: none;
+}
+
+.invisible
+{
+    visibility: hidden ;
+}
