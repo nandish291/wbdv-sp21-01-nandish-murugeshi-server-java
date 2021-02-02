@@ -1,0 +1,38 @@
+.icon-color-light{
+    color: gray;
+}
+
+.nav-pills{
+    margin-top: 2em ;
+}
+
+.left-pane{
+    padding-top: 2em ;
+    height: 100vh;
+    background-color:#3e3d3c;
+}
+
+.list-no-style{
+    list-style: none;
+    margin-top: 0.5em;
+}
+
+.list-group-item{
+    width: 100%;
+    background-color: gray;
+    margin: 0.5em 0 0.5em 0.5em;
+    border-radius: 0.2em;
+}
+
+.badge .bg-secondary{
+    color: gray;
+}
+
+.margin_left{
+    margin-left: 0.5em;
+}
+
+a
+{
+    color: white;
+}
