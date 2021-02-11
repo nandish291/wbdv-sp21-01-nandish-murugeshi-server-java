@@ -42,7 +42,7 @@ function selectUser(event) {
     var selectBtn = jQuery(event.target);
     var theId = selectBtn.attr("id");
     selectedUser = users.find(user => user._id === theId);
-    usernameFld.val(selectedUser.userName);
+    usernameFld.val(selectedUser.username);
     passwordFld.val(selectedUser.password);
     firstNameFld.val(selectedUser.firstName);
     lastNameFld.val(selectedUser.lastName);
@@ -107,7 +107,7 @@ function updateUser() {
             passwordFld.val("");
             firstNameFld.val("")
             lastNameFld.val("");
-            roleFld.val("Faculty")
+            roleFld.val("Faculty");
         })
 }
 
